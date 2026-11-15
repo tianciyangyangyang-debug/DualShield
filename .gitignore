@@ -1,0 +1,43 @@
+# Local datasets and training assets
+data/
+datasets/
+watermarks/
+sd1.5/
+stable-diffusion*/
+pretrained/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.pkl
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+
+# Generated runs and logs
+output*/
+results/
+runs/
+logs/
+wandb/
+*.log
+
+# Python, environments and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.ipynb_checkpoints/
+.cache/
+.DS_Store
+.idea/
+.vscode/
